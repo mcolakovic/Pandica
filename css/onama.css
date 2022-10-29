@@ -1,0 +1,102 @@
+.text-box {
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  color: rgb(247, 0, 255);
+  position: absolute;
+  transform: translate(-40%, -60%);
+}
+
+.text-box h1 {
+  font-size: 50px;
+}
+
+.text-box p {
+  margin: 15px 0 50px;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: double;
+  border: 2px solid rgb(247, 0, 255);
+  padding: 10px 25px;
+  background: transparent;
+  color: rgb(247, 0, 255);
+  position: relative;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(11, 219, 105);
+  color: black;
+  border: 2px solid black;
+}
+
+  @media (max-width: 1080px) {
+
+    .swiper-slide {
+      display: flex;
+      justify-content:space-around;
+      flex-direction: column;
+    }
+
+    .card-one-our{
+      margin: 10px;
+      max-width: 100%;
+      width: 600px;
+    }
+  }
+
+  .secondpart {
+    margin: 0;
+    background: rgb(90, 96, 176);
+    padding: 100px;
+    justify-content: center;
+  }
+  
+  .secondpart h2.aboutustext {
+    color: #ffff;
+  }
+  .secondpart p.aboutusp {
+    color: #ffff;
+  }
+  .cards-our {
+    display: flex;
+  }
+  .card-one-our {
+    border: 2px solid #ffff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: auto;
+    max-height: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: rgb(146, 118, 173);
+  }
+  
+  .card-one-our img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .card-one-our h2.card-one-name {
+    margin-top: 10px;
+    font-size: 2em;
+    color: #ffff;
+  }
+  .card-one-our p.card-one-p {
+    color: #ffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+  .swiper {
+    display: flex;
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content:space-around;
+
+  }

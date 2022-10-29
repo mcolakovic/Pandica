@@ -1,0 +1,35 @@
+.text-box {
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  color: rgb(247, 0, 255);
+  position: absolute;
+  transform: translate(-40%, -60%);
+}
+
+.text-box h1 {
+  font-size: 50px;
+}
+
+.text-box p {
+  margin: 15px 0 50px;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: double;
+  border: 2px solid rgb(247, 0, 255);
+  padding: 10px 25px;
+  background: transparent;
+  color: rgb(247, 0, 255);
+  position: relative;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(11, 219, 105);
+  color: black;
+  border: 2px solid black;
+}
+
